@@ -1,0 +1,73 @@
+.mapBlock {
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.map {
+  width: 1280px;
+  height: 677px;
+
+  -moz-border-radius: 14px 14px 14px 14px; /* Firefox */
+  -webkit-border-radius: 14px 14px 14px 14px; /* Safari, Chrome */
+  -khtml-border-radius: 14px 14px 14px 14px; /* KHTML */
+  border-radius: 14px 14px 14px 14px; /* CSS3 */
+
+  overflow: hidden;
+
+  position: relative;
+}
+
+.t117_map,
+.t555__map,
+.t-map {
+  border-radius: 50px !important;
+  overflow: hidden;
+}
+
+.map-btn {
+  background-color: #050038;
+  border: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-left: -80px;
+  height: 56px;
+}
+
+.input-map {
+  background-color: #fafafa;
+  padding: 15px;
+  border-radius: 50px;
+  border: none;
+  height: 55px;
+  width: 436px;
+}
+
+.map-title {
+  font-weight: 600;
+  font-size: 36px;
+  padding-bottom: 15px;
+}
+
+.map-descr {
+  color: #555555;
+  font-weight: 400;
+  font-size: 16px;
+  width: 510px;
+}
+
+.map-info-wrapper {
+  display: flex;
+  background-color: #ffffff;
+  width: 1200px;
+  height: 200px;
+  position: relative;
+  z-index: 90;
+  margin-top: -250px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}

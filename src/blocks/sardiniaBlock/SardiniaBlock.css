@@ -1,0 +1,110 @@
+.sardiniaBlock {
+  height: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 150px;
+  gap: 150px;
+  margin-bottom: -400px;
+}
+
+.sardinia-title {
+  font-weight: 600;
+  font-size: 64px;
+}
+
+.price-sardinia {
+  font-weight: 400;
+  font-size: 30px;
+  margin-top: -15px;
+}
+
+.sardinia-descr {
+  color: #616161;
+  font-weight: 400;
+  font-size: 20px;
+  width: 610px;
+}
+
+.text-wrapper-sardinia {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.img-wrapper-sardinia {
+  background-color: #f6f6f6;
+  width: 580px;
+  height: 820px;
+  margin-top: 40px;
+}
+
+.img-wrapper-bottom-sardinia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.SardiniaFirstImg {
+  height: 580px;
+}
+
+.SardiniaSecImg {
+  width: 160px;
+}
+
+.btn-wrapper-sardinia {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 480px;
+  margin-top: 40px;
+}
+
+.btn-sardinia {
+  width: 220px;
+  height: 65px;
+  font-size: 20px;
+}
+
+.left-btn-sardinia {
+  height: 65px;
+  width: 175px;
+  border: 1px solid #000000;
+  display: flex;
+  font-size: 20px;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.controls-btn {
+  font-weight: 200;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.num-btn {
+  font-size: 20px;
+}
+
+.favorite-btn {
+  border: 1px solid #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 62px;
+  height: 65px;
+  cursor: pointer;
+}
+
+.list-sardinia {
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.list-sardinia-item {
+  list-style-type: disc;
+}

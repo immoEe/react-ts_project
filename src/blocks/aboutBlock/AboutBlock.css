@@ -1,0 +1,51 @@
+.aboutBlock {
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: -200px;
+}
+
+.aboutImg {
+  position: relative;
+  z-index: -1;
+  width: 928px;
+  margin-left: 200px;
+}
+
+.about-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f7f7f7;
+  width: 620px;
+  height: 350px;
+  justify-content: center;
+  gap: 20px;
+  position: absolute;
+  margin-right: 500px;
+}
+
+.title-about {
+  font-weight: 600;
+  font-size: 42px;
+  margin-left: 30px;
+}
+
+.descr-about {
+  font-weight: 600;
+  font-size: 18px;
+  color: #616161;
+  width: 535px;
+  margin-left: 30px;
+}
+
+.about-btn {
+  background-color: #111010;
+  width: 175px;
+  height: 45px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-left: 30px;
+}

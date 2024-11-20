@@ -1,0 +1,115 @@
+.catalogBlock {
+  background-color: #ffffff;
+  max-height: 2000px;
+  min-height: 700px;
+  margin-top: 350px;
+  position: relative;
+  z-index: 70;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin-top: 150px;
+}
+
+.service-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.service-title-item {
+  color: #081323;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.service-descr-item {
+  color: #828282;
+  font-weight: 600;
+  font-size: 18px;
+  width: 270px;
+  padding-top: 10px;
+}
+
+.service-text-item {
+  padding-left: 20px;
+}
+
+.service-img {
+  width: 72px;
+}
+
+.catalog {
+  width: 1250px;
+  margin-top: 150px;
+}
+
+.catalog-title {
+  font-weight: 600;
+  font-size: 55px;
+  width: 680px;
+  padding-left: 10px;
+}
+
+.navlist-catalog {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-weight: 400;
+  font-size: 22px;
+  justify-content: space-between;
+  width: 650px;
+  border-bottom: 1px solid #e5e5e5;
+  height: 50px;
+  margin-left: 625px;
+  margin-top: -20px;
+}
+
+a {
+  color: #081323;
+  text-decoration: none;
+}
+
+.navlist-catalog-item {
+  padding-bottom: 16px;
+  padding: 15px;
+}
+
+.navlist-catalog-item:hover {
+  color: #eb4c56;
+  border-bottom: 2px solid #eb4c56;
+}
+
+.active {
+  color: #eb4c56;
+  border-bottom: 2px solid #eb4c56;
+  padding: 15px;
+}
+
+.catalog-card-wrapper {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1300px;
+  gap: 30px;
+}
+
+.catalog-card-wrapper-hiden {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 1300px;
+  gap: 30px;
+}
+
+.catalog-btn {
+  margin-top: 50px;
+}

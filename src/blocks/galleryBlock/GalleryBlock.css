@@ -1,0 +1,33 @@
+.galleryBlock {
+  background-color: #f8f8f8;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-top: 300px;
+}
+
+.title-gallery {
+  font-size: 55px;
+  font-weight: 600;
+  position: absolute;
+  margin-top: -730px;
+  margin-right: 720px;
+}
+
+.gallery-wrapper {
+  display: flex;
+  gap: 25px;
+}
+
+.GalleryLeftImg {
+  height: 648px;
+  margin-top: 115px;
+}
+
+.GalleryRightTopImg {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}

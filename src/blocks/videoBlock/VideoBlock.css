@@ -1,0 +1,32 @@
+.videoBlock {
+  height: 740px;
+  margin-top: 430px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.text-wrapper-video {
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.video-title {
+  font-size: 65px;
+  font-weight: 600;
+  width: 420px;
+}
+
+.video-text {
+  font-weight: 400;
+  font-size: 22px;
+  width: 485px;
+}
+
+video {
+  width: 680px;
+  transform: skew(-5deg) rotate(-5deg);
+  margin-top: 50px;
+}
